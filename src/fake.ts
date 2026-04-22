@@ -120,7 +120,7 @@ function fakeFunctions(fakerInstance: typeof faker) {
     imageUrl: {
       args: ['imageSize', 'imageKeywords', 'randomizeImageUrl'],
       func: (size, keywords, randomize) => {
-        let url = 'https://source.unsplash.com/random/';
+        let url = 'https://picsum.photos/';
 
         if (size != null) {
           url += `${size.width}x${size.height}/`;
